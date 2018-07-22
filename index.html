@@ -2,24 +2,33 @@
     <head>
         <style>
             body { 
-                background-image:url("bg.jpg");
+                background-image:url("content/bg.jpg");
+                font-family: 'Fjalla One', sans-serif;
                 background-size: cover;
                 color: #fff;
-                font-size: 70px;
-                font-kerning: 5px;
                 letter-spacing: 5px;
+                text-align:center;
             }
             h1 { 
                 text-transform:uppercase; 
-                font-family: 'Fjalla One', sans-serif;
-                text-align:center;
-                margin:20px;
+                margin:40px;
+                font-size: 90px;
             }
             h1 span { display: block; }
+            img { height:50px; }
+            img.link:hover { transform:scale(1.1); cursor: pointer;}
+            a { font-size: 20px; }
+            a:hover { text-decoration: underline; cursor: pointer; }
         </style>
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     </head>
     <body>
         <h1>Piranha Plant <span>Software</span></h1>
+        <p>
+            <img src="content/github.svg" class="link">
+            <img src="content/mail.svg" class="link">
+            <img src="content/stack_overflow.svg" class="link">
+        </p>
+        <a>About Us</a>
     </body>
 </html>
