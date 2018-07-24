@@ -4,22 +4,22 @@
     <style>
         body {
             margin: 0;
+            width: 800px;
+            margin:auto;
+            padding:40px 10px;
         }
 
         header {
             overflow: auto;
-            background-image: url("content/bg.jpg");
-            background-size: cover;
         }
 
         header h1 {
             font-family: 'Fjalla One', sans-serif;
-            color: #fff;
+            color: #000;
             text-transform: uppercase;
-            margin: 40px;
+            margin: 0;
             font-size: 90px;
             letter-spacing: 2px;
-            float: left;
         }
 
         header h1 span {
@@ -28,14 +28,19 @@
         }
 
         nav.links {
-            margin-right: 60px;
+            margin: 0;
             float: right;
-            margin-top: 170px;
+            margin-right: 10px;
+            margin-top: -60px;
         }
 
         nav.links img {
             height: 50px;
         }
+
+        nav.links img.linkedin {
+            width: 34px;
+         }
 
         nav.links img.link:hover {
             transform: scale(1.1);
@@ -43,13 +48,14 @@
         }
 
         div.about {
-            font-family: 'Average', serif;
-            padding: 20px;
-            font-size: 20px;
+            font-family: 'Open Sans', serif;
+            font-size: 18px;
+            padding-top:20px;
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -61,6 +67,7 @@
             <img src="content/github.svg" class="link">
             <img src="content/mail.svg" class="link">
             <img src="content/stack_overflow.svg" class="link">
+            <img src="content/linkedin.svg" class="link linkedin">
         </nav>
     </header>
 
