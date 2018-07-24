@@ -5,8 +5,14 @@
         body {
             margin: 0;
             width: 800px;
-            margin:auto;
-            padding:40px 10px;
+            margin: auto;
+            padding: 40px 10px;
+        }
+
+        img.piranha-plant {
+            width: 71px;
+            float: left;
+            margin-right: 20px;
         }
 
         header {
@@ -28,10 +34,7 @@
         }
 
         nav.links {
-            margin: 0;
-            float: right;
-            margin-right: 10px;
-            margin-top: -60px;
+            text-align: center;
         }
 
         nav.links img {
@@ -40,7 +43,7 @@
 
         nav.links img.linkedin {
             width: 34px;
-         }
+        }
 
         nav.links img.link:hover {
             transform: scale(1.1);
@@ -48,9 +51,31 @@
         }
 
         div.about {
-            font-family: 'Open Sans', serif;
+            font-family: 'Average', serif;
+            line-height: 30px;
             font-size: 18px;
-            padding-top:20px;
+            margin: 40px 0;
+            text-indent: 20px;
+        }
+
+        img.headshot {
+            display: block;
+            margin: auto;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            border: #000 4px solid;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        footer p {
+            text-align: center;
+            font-style: italic;
+            border-top: 1px solid #000;
+            display: inline-block;
+            padding-top: 5px;
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
@@ -60,34 +85,47 @@
 
 <body>
     <header>
-        <h1>Piranha Plant
+        <img src="content/piranha.png" class="piranha-plant" />
+        <h1>
+            Piranha Plant
             <span>Software</span>
         </h1>
-        <nav class="links">
-            <img src="content/github.svg" class="link">
-            <img src="content/mail.svg" class="link">
-            <img src="content/stack_overflow.svg" class="link">
-            <img src="content/linkedin.svg" class="link linkedin">
-        </nav>
     </header>
 
     <div class="about">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            My name is Daniel Ormisher and I run Piranha Plant Software, a software consultancy based in the North West of England. I
+            am a Software Engineer with 10 years of experience and I have offered my expertise to a variety of enterprise
+            level e-commerce companies, tech startups, and data science companies in the Lancashire and Manchester area.
+            For a detailed view of my employment history please visit my linked in profile.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            I am a full stack developer with a wide range of skills and I am comfortable working with the front end, back end, or database.
+            I primarily build systems and products using a mixture of C#, JavaScript, and SQL (and a good portion of the
+            myriad frameworks built on top of these languages). To see a detailed breakdown of my skillset please get in
+            touch and I will send over a copy of my CV.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            I consider myself a professional and a craftsman who delivers high quality software for my clients. I follow modern development
+            practices such as TDD, clean code, continuous integration, IOC, iterative development, and other SOLID principles.
+            I have strong desire to do things right and I always try to make the best decisions for the codebase I am working
+            on. Writing beautiful code and well architected systems, whilst delivering accurate functionality, is something
+            I enjoy greatly and I feel lucky to be in such an interesting profession.
         </p>
     </div>
+
+    <img class="headshot" src="https://www.gravatar.com/avatar/c3521e4cd3808603a0801f8ba4721a31?s=70&amp;d=identicon&amp;r=PG">
+
+    <nav class="links">
+        <img src="content/github.svg" class="link">
+        <img src="content/mail.svg" class="link">
+        <img src="content/stack_overflow.svg" class="link">
+        <img src="content/linkedin.svg" class="link linkedin">
+    </nav>
+
+    <footer>
+        <p>Piranha Plant Software Ltd. Registered Company Number 11477498</p>
+    </footer>
 </body>
 
 </html>
