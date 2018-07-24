@@ -1,38 +1,86 @@
 <html>
-    <head>
-        <style>
-            body { 
-                background-image:url("content/bg.jpg");
-                font-family: 'Fjalla One', sans-serif;
-                background-size: cover;
-                color: #fff;
-                letter-spacing: 5px;
-                text-align:center;
-            }
-            h1 { 
-                text-transform:uppercase; 
-                margin:40px;
-                font-size: 90px;
-            }
-            h1 span { display: block; }
-            img { height:50px; }
-            img.link:hover { transform:scale(1.1); cursor: pointer;}
-            h2 { font-size: 20px; }
-        </style>
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    </head>
-    <body>
-        <h1>Piranha Plant <span>Software</span></h1>
-        <p>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header {
+            overflow: auto;
+            background-image: url("content/bg.jpg");
+            background-size: cover;
+        }
+
+        header h1 {
+            font-family: 'Fjalla One', sans-serif;
+            color: #fff;
+            text-transform: uppercase;
+            margin: 40px;
+            font-size: 90px;
+            letter-spacing: 2px;
+            float: left;
+        }
+
+        header h1 span {
+            display: block;
+            font-size: 50px;
+        }
+
+        nav.links {
+            margin-right: 60px;
+            float: right;
+            margin-top: 170px;
+        }
+
+        nav.links img {
+            height: 50px;
+        }
+
+        nav.links img.link:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        div.about {
+            font-family: 'Average', serif;
+            padding: 20px;
+            font-size: 20px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Piranha Plant
+            <span>Software</span>
+        </h1>
+        <nav class="links">
             <img src="content/github.svg" class="link">
             <img src="content/mail.svg" class="link">
             <img src="content/stack_overflow.svg" class="link">
-        </p>
+        </nav>
+    </header>
 
-        <h2>About Us</h2>
-
+    <div class="about">
         <p>
-            Piranha Plant Software is a software consultancy run by Daniel Ormisher, based in Lancashire &amp; the Manchester area.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </p>
-    </body>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+    </div>
+</body>
+
 </html>
